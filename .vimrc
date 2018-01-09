@@ -12,7 +12,7 @@ set number
 set cursorline
 "set cursorcolumn
 set virtualedit=onemore
-set smartindent
+"set smartindent
 set visualbell
 set showmatch
 set laststatus=2
@@ -26,6 +26,8 @@ set incsearch
 set wrapscan
 set hlsearch
 
-if has("mouse") " Enable the use of the mouse in all modes
-  set mouse=a
-endif
+"if has("mouse") " Enable the use of the mouse in all modes
+"  set mouse=a
+"endif
+
+set clipboard=unnamed,autoselect
